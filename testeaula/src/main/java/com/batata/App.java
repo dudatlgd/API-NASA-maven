@@ -32,7 +32,7 @@ public class App {
 
             // 3️⃣ Pega a URL da imagem (pelo site da nasa ent eu n escolho é automatica)
             String imageUrl = jsonObject.get("url").getAsString();
-            System.out.println("URL da imagem: " + imageUrl);
+            System.out.println("\n URL da imagem: " + imageUrl);
 
             // 4️⃣ Faz o download da imagem
             InputStream inputStream = new URL(imageUrl).openStream();
@@ -51,7 +51,7 @@ public class App {
             inputStream.close();
             outputStream.close();
 
-            System.out.println("Imagem baixada com sucesso como 'nasa_image.jpg'");
+            System.out.println("\n Imagem baixada com sucesso como 'nasa_image.jpg' \n ");
 
         } catch (IOException e) {
             System.out.println("❌ Erro de I/O: " + e.getMessage());

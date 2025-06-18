@@ -33,5 +33,12 @@
  ✔️ Se tudo estiver correto, você verá no terminal a URL da imagem do dia,
     e a imagem será salva na mesma pasta com o nome: nasa_image.jpg.
 
- 🚀 Espero que de certo!
- 
+ 🚀 Como confirmar que deu certo?
+ Vá até a barra lateral do VS Code (ícone de pastinha).
+Expanda a pasta testeaula.
+Você deve ver um arquivo chamado nasa_image.jpg.
+Isso significa que a imagem foi baixada então deu certo!
+
+Se você quiser abrir automaticamente essa imagem após o download (apenas para visualização rápida), 
+da pra mostrar como adicionar isso no código com Java Desktop (Desktop.getDesktop().open(...)).
+mas isso fica para as próximas atualizações!
