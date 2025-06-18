@@ -1,6 +1,8 @@
 # AULA
 
- 📷 NASA IMAGE DOWNLOADER – Projeto Java com API
+ 📷 NASA IMAGE DOWNLOADER – Projeto Java com API 
+
+ dica: certifique-se que esse arquivo não está sendo traduzido para o portugues para não atrapalhar sua leitura!
 
  Este programa realiza uma requisição HTTP para a API pública da NASA (APOD – Astronomy Picture of the Day),
  obtém os dados em formato JSON, extrai automaticamente a URL da imagem astronômica do dia
