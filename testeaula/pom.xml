@@ -28,8 +28,8 @@
             <!-- Plugin para executar a classe principal -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
-                <artifactId>gson</artifactId>
-                <version>2.10.1</version>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
                 <configuration>
                     <mainClass>com.batata.App</mainClass>
                 </configuration>
